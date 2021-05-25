@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Webpage Including Form</title>
+</head>
+
+<body>
+    <h1>CAREEERS @ CAPGEMINI</h1>
+    <img src="capgemini.png">
+    <h2>EMPLOYMENT APPLICATION</h2>
+    <h3>(EXPERIENCED ONLY)</h3>
+    <p><a><strong>Note:</strong></a>Fresher candidates not eligible. Internships are also not considered as experience
+    </p>
+    <div>
+        <fieldset>
+
+            <legend>
+                <h2 class="b">Personal details:</h2>
+            </legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="First_Name">First name *</label>
+                        <input name="First_Name" type="text" maxlength="50" placeholder="Enter First name">
+                    </td>
+
+                    <td>
+                        <label for="Last_Name"> Last name *</label>
+                        <input name="Last_Name" type="text" maxlength="50"placeholder="Enter Last name">
+                    </td>
+                </tr>
+                <tr class="test">
+                    <td>
+                        <label for="Email"> Email *</label>
+                        <input name="Email" type="email" maxlength="100"placeholder="Enter Email ID">
+                    </td>
+                    <td>
+                        <label for="Phone"> Phone *</label>
+                        <input name="Phone" type="number" maxlength="70"placeholder="With country code">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Position"> Position you are applying for *</label>
+                        <input name="Position" type="text" maxlength="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Salary"> Salary requirements</label>
+                        <input name="Salary" type="number" maxlength="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="starting_date">When can you start?</label>
+                        <input name="starting_date" type="date" value="2021-06-01">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Relocate"> Are you willing to relocate?</label>
+                        <input name="Relocate" type="radio" value="Yes" /> Yes
+                        <input name="Relocate" type="radio" value="No" /> No
+                        <input name="Relocate" type="radio" value="NotSure" /> Not sure
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Organization"> Last company you worked for</label>
+                        <input name="Organization" type="text" maxlength="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ref">
+                        <label for="Reference"> Reference / Questions</label>
+                        <textarea name="Reference"  rows="3" cols="35"></textarea>
+                    </td>
+                </tr>
+                <tr>
+
+                </tr>
+            </table>
+            <label>Upload your CV:</label>
+            <input type="file" name="file">
+    </div>
+    <button type="submit">Submit</button>
+    </fieldset>
+    <h2 class="b">Note:</h2>
+    <ul>
+        <li>Filling this form does not guarantee any job.</li>
+        <li>CAPGEMINI "never" asks for any Payments(fees) at any stage of recruitment.</li>
+        </div>
+</body>
+
+</html>
